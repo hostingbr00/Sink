@@ -3,39 +3,39 @@ import { Link, AreaChart, ServerOff, Paintbrush, Sparkles, Hourglass } from 'luc
 
 const features = ref([
   {
-    title: 'URL Shortening',
+    title: 'Encurtamento de URL',
     description:
-          'Compress your URLs to their minimal length.',
+          'Comprima suas URLs ao seu comprimento mínimo.',
     icon: Link,
   },
   {
     title: 'Analytics',
     description:
-          'Monitor link analytics and gather insightful statistics.',
+          'Monitore a análise dos links e obtenha estatísticas perspicazes.',
     icon: AreaChart,
   },
   {
     title: 'Serverless',
     description:
-          'Deploy without the need for traditional servers.',
+          'Implante sem a necessidade de servidores tradicionais.',
     icon: ServerOff,
   },
   {
-    title: 'Customizable Slug',
+    title: 'Slug Personalizável',
     description:
-          'Support for personalized slugs.',
+          'Suporte para slugs personalizados.',
     icon: Paintbrush,
   },
   {
-    title: 'AI Slug',
+    title: 'Slug com IA',
     description:
-          'Leverage AI to generate slugs.',
+          'Aproveite a IA para gerar slugs.',
     icon: Sparkles,
   },
   {
-    title: 'Link Expiration',
+    title: 'Expiração de Link',
     description:
-          'Set expiration dates for your links.',
+          'Defina datas de expiração para seus links.',
     icon: Hourglass,
   },
 ])
@@ -45,10 +45,10 @@ const features = ref([
   <main class="pt-16 md:py-12">
     <div class="md:pb-12">
       <h2 class="text-4xl font-bold lg:text-5xl lg:tracking-tight">
-        Features
+        Funcionalidades
       </h2>
       <p class="my-8 text-lg md:mb-0 text-slate-600">
-        Simple and sufficient functionality
+        Funcionalidade simples e suficiente
       </p>
     </div>
 
